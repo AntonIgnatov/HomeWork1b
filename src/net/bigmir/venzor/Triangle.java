@@ -62,7 +62,7 @@ public class Triangle {
 	}
 
 	public void print() {
-		System.out.print("Ńňîđîíű ňđĺóăîëüíčęŕ "+name+": ");
+		System.out.print("Стороны треугольника "+name+": ");
 		System.out.print(side1 + "; ");
 		System.out.print(side2 + "; ");
 		System.out.println(side3 + ".");
