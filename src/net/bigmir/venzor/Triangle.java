@@ -62,7 +62,7 @@ public class Triangle {
 	}
 
 	public void print() {
-		System.out.print("Стороны треугольника "+name+": ");
+		System.out.print("ЕѓЕ€Г®Д‘Г®Г­Е± Е€Д‘ДєГіДѓГ®Г«ГјГ­ДЌД™Е• "+name+": ");
 		System.out.print(side1 + "; ");
 		System.out.print(side2 + "; ");
 		System.out.println(side3 + ".");
@@ -73,10 +73,10 @@ public class Triangle {
 		if (exist()) {
 			area();
 			print();
-			System.out.println("Площадь треугольника " + name + " = " + String.format("%.3f.", area));
+			System.out.println("РџР»РѕС‰Р°РґСЊ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° " + name + " = " + String.format("%.3f.", area));
 		} else {
 			print();
-			System.out.println("Такого треугольника не существует.");
+			System.out.println("РўР°РєРѕРіРѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚.");
 		}
 	}
 
